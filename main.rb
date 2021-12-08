@@ -1,6 +1,6 @@
 require_relative 'game'
-  require_relative 'box'
-  require_relative 'die'
+require_relative 'box'
+require_relative 'die'
 
 
 

@@ -18,12 +18,11 @@ class Die
         roll!
     end
 
-#
-#
-  # def to_s
-  #   value
-  # end
-#
-# end
+
+  def to_s
+    value
+  end
 
 end
+
+
