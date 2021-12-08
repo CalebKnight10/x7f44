@@ -35,7 +35,7 @@ class Game
     puts "\n"
     puts "Which tiles would you like to flip (separate by spaces): "
     tiles_to_flip = gets.chomp
-    prepare_next_round
+    start!
   end
 
   def results

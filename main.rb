@@ -13,4 +13,4 @@ game=Game.new(box, dice)
 puts Game::WELCOME_MESSAGE
 game.start!
 game.play until game.over?
-puts   game.results
+puts game.results
