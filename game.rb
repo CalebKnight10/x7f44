@@ -17,7 +17,7 @@ class Game
   def start!
     dice.each(&:roll!)
   end
-
+ 
   def play
     print '| '
     box.getTiles().each do |tile|
