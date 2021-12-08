@@ -1,7 +1,6 @@
 class Game
 
   WELCOME_MESSAGE = "Welcome to Shut da Box!"
-  W_M = "You shut da box!"
 
   attr_reader :box, :dice
 
