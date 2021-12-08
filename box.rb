@@ -23,8 +23,4 @@ class Box
     @tiles
   end
 
-  def to_s
-    "Box"
-  end
-
 end
