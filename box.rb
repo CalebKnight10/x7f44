@@ -26,5 +26,5 @@ class Box
   def to_s
     "Box"
   end
-
+  
 end
