@@ -11,7 +11,7 @@ class Game
   end
 
   def over?
-    box.shut? || box.can_flip_for?(dice.map(&:to_s).reduce(:+))
+    box.shut? || box.can_flip_for?(dice.map(&:value?).reduce(:+))
   end
 
   def start!
@@ -26,7 +26,7 @@ class Game
     print "\n"
     print "You rolled: "
     dice.each do |die|
-      print "#{die.to_s} "
+      print "#{die.value?} "
     end
     puts "\n"
     puts "Which tiles would you like to flip (separate by spaces): "

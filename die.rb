@@ -14,12 +14,12 @@ class Die
     self.value = prng.rand(1..number_of_sides)
   end
 
-  def makeRoll
-    roll!
+  def value?
+    value
   end
 
   def to_s
-    value
+    "Dice"
   end
 
 end
