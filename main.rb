@@ -2,13 +2,13 @@ require_relative 'game'
 require_relative 'box'
 require_relative 'die'
 
-NUM_T = 9
-N_DICE = 2
-N_SIDES = 6
+NUMBER_OF_TILES = 9
+NUMBER_OF_DICE = 2
+NUMBER_OF_DICE_SIDES = 6
 
-dice= (1..N_DICE).map { |i| Die.new(N_SIDES) }
-box= Box.new(NUM_T)
-game=Game.new(box, dice)
+dice = (1..NUMBER_OF_DICE).map { |i| Die.new(NUMBER_OF_DICE_SIDES) }
+box = Box.new(NUMBER_OF_TILES)
+game = Game.new(box, dice)
 
 puts Game::WELCOME_MESSAGE
 game.start!
